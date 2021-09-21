@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'home',
     'froala_editor',
     'rest_framework',
-    'Gallery'
+    'Gallery',
+    'homepage'
 ]
 
 MIDDLEWARE = [

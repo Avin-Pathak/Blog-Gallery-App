@@ -21,7 +21,8 @@ from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path('', include('home.urls')),
+    path('/blog', include('home.urls')),
+    path('', include('homepage.urls')),
     path('api/' , include('home.urls_api')),
     path('admin/', admin.site.urls),
     path('gallery/', include('Gallery.urls')),
